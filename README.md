@@ -1,4 +1,13 @@
-<h1><a href="https://esteecodes.github.io/HTML-CSS-JS-Coursera/module2-solution/" target="_blank">Analog Clock</a></h1>
+<h1><a href="https://esteecodes.github.io/Analog-Clock/" target="_blank">Analog Clock</a></h1>
+
+<p>This project is part of the <br>
+  Javascript Essential Training - 2017
+  <br> on LinkedIn Learning</p>
+  
+  <p>I did the original version back in May 09, 2020<br> 
+  but back then I didn't know exactly what was going on.</p>
+  
+  <p>I made another version in dark mode much later and then it seemed a lot easier.</p>
 
 <h3>Connect with me on Social Media ↓</h3>
 <br/>
