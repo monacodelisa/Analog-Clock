@@ -1,0 +1,70 @@
+/* Layout */
+body {
+  background-color: #000000;
+}
+body .main {
+  display: flex;
+  padding: 2em;
+  height: 90vh;
+  justify-content: center;
+  align-items: center;
+}
+body .main .clockbox,
+body .main #clock {
+  width: 100%;
+  /* Clock styles */
+  /* Transparent box ensuring arms center properly. */
+  /* Make all arms rotate around the same center point. */
+  /* Optional: Use transition for animation. */
+}
+body .main .clockbox .circle,
+body .main #clock .circle {
+  fill: none;
+  stroke: #ffffff;
+  stroke-width: 9;
+  stroke-miterlimit: 10;
+}
+body .main .clockbox .hour-marks,
+body .main #clock .hour-marks {
+  fill: none;
+  stroke: #ffffff;
+  stroke-width: 9;
+  stroke-miterlimit: 10;
+}
+body .main .clockbox .mid-circle,
+body .main #clock .mid-circle {
+  fill: #fff;
+}
+body .main .clockbox .hour-arm,
+body .main #clock .hour-arm {
+  fill: none;
+  stroke: #ffffff;
+  stroke-width: 17;
+  stroke-miterlimit: 10;
+}
+body .main .clockbox .minute-arm,
+body .main #clock .minute-arm {
+  fill: none;
+  stroke: #ffffff;
+  stroke-width: 11;
+  stroke-miterlimit: 10;
+}
+body .main .clockbox .second-arm,
+body .main #clock .second-arm {
+  fill: none;
+  stroke: #ffffff;
+  stroke-width: 4;
+  stroke-miterlimit: 10;
+}
+body .main .clockbox .sizing-box,
+body .main #clock .sizing-box {
+  fill: none;
+}
+body .main .clockbox #hour,
+body .main .clockbox #minute,
+body .main .clockbox #second,
+body .main #clock #hour,
+body .main #clock #minute,
+body .main #clock #second {
+  transform-origin: 300px 300px;
+}
